@@ -1,13 +1,12 @@
 package com.mycompany.app;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public int add(int a, int b) {
+        if (a > 0) {
+            return a + b;
+        } else {
+            return b;
+        }
     }
 }

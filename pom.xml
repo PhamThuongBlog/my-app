@@ -11,50 +11,128 @@
     <packaging>jar</packaging>
 
     <name>my-app</name>
-    <url>http://maven.apache.org</url>
 
-    <!-- ✅ Khai báo Java version -->
+    <!-- =====================
+         Properties
+         ===================== -->
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Versions -->
+        <junit.jupiter.version>5.10.0</junit.jupiter.version>
+        <junit4.version>4.13.2</junit4.version>
+        <!--<evosuite.version>1.2.0</evosuite.version> -->
+        <evosuite.version>1.0.6</evosuite.version>
+        <pitest.version>1.16.0</pitest.version>
+
+        <!-- PIT: chỉ chạy test do LLM sinh -->
+        <pit.targetTests>com.mycompany.app.*LLMTest</pit.targetTests>
     </properties>
 
+    <!-- =====================
+         Dependencies
+         ===================== -->
     <dependencies>
-        <!-- Giữ nguyên JUnit 3 để không phá code hiện tại -->
+
+        <!-- JUnit 5 (Human + LLM tests) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JUnit 4 (EvoSuite tests) -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>${junit4.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- =====================
+             EvoSuite runtime (BẮT BUỘC)
+             ===================== -->
+        <dependency>
+            <groupId>org.evosuite</groupId>
+            <artifactId>evosuite-runtime</artifactId>
+            <version>${evosuite.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JUnit Vintage: chạy JUnit 4 tests trên JUnit 5 platform -->
+<dependency>
+    <groupId>org.junit.vintage</groupId>
+    <artifactId>junit-vintage-engine</artifactId>
+    <version>5.10.0</version>
+    <scope>test</scope>
+</dependency>
+
+
     </dependencies>
 
-    <!-- ✅ Khai báo compiler plugin hiện đại -->
+    <!-- =====================
+         Build plugins
+         ===================== -->
     <build>
         <plugins>
+
+            <!-- Java compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
-            <!-- PIT mutation testing -->
+
+            <!-- Surefire: chạy JUnit 4 + JUnit 5 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <useModulePath>false</useModulePath>
+                </configuration>
+            </plugin>
+
+            <!-- =====================
+                 PIT mutation testing
+                 ===================== -->
             <plugin>
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
                 <version>${pitest.version}</version>
+
+                <!-- JUnit 5 support -->
+                <dependencies>
+                    <dependency>
+                        <groupId>org.pitest</groupId>
+                        <artifactId>pitest-junit5-plugin</artifactId>
+                        <version>1.2.1</version>
+                    </dependency>
+                </dependencies>
+
                 <configuration>
                     <targetClasses>
-                        <param>vn.demo.library.*</param>
+                        <param>com.mycompany.app.*</param>
                     </targetClasses>
+
+                    <!-- Mặc định: chỉ chạy LLM tests -->
                     <targetTests>
-                        <param>vn.demo.library.*Test</param>
+                        <param>${pit.targetTests}</param>
                     </targetTests>
-                    <threads>4</threads>
+
+                    <threads>2</threads>
+
+                    <outputFormats>
+                        <param>HTML</param>
+                        <param>CSV</param>
+                    </outputFormats>
                 </configuration>
             </plugin>
 
