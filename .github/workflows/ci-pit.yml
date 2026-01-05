@@ -1,0 +1,43 @@
+name: CI - Unit Tests & PIT
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-test-pit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 8
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '8'
+          cache: maven
+
+      - name: Verify Java version
+        run: java -version
+
+      - name: Run unit tests
+        run: mvn clean test -Dtest=RegressionTest*
+
+      - name: Run PIT mutation testing
+        run: mvn pitest:mutationCoverage -Dpit.targetTests=com.mycompany.app.randoop.*
+
+      - name: Upload PIT HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-report-html
+          path: target/pit-reports
+
+      - name: Upload PIT CSV report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-report-csv
+          path: target/pit-reports/**/mutations.csv
