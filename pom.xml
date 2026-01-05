@@ -29,6 +29,7 @@
 
         <!-- PIT: chỉ chạy test do LLM sinh -->
         <pit.targetTests>com.mycompany.app.*LLMTest</pit.targetTests>
+        <pit.reports.dir>pit-default</pit.reports.dir>
     </properties>
 
     <!-- =====================
@@ -127,6 +128,8 @@
                         <param>${pit.targetTests}</param>
                     </targetTests>
 
+                    <reportsDirectory>${pit.reports.dir}</reportsDirectory>
+
                     <threads>2</threads>
 
                     <outputFormats>
@@ -138,5 +141,66 @@
 
         </plugins>
     </build>
+
+<profiles>
+
+    <!-- =====================
+         HUMAN baseline
+         ===================== -->
+    <profile>
+        <id>human</id>
+        <properties>
+            <pit.targetTests>com.mycompany.app.*HumanTest</pit.targetTests>
+            <pit.reports.dir>pit-human</pit.reports.dir>
+        </properties>
+    </profile>
+
+    <!-- =====================
+         LLM only
+         ===================== -->
+    <profile>
+        <id>llm</id>
+        <properties>
+            <pit.targetTests>com.mycompany.app.*LLMTest</pit.targetTests>
+            <pit.reports.dir>pit-llm</pit.reports.dir>
+        </properties>
+    </profile>
+
+    <!-- =====================
+         EvoSuite only
+         ===================== -->
+    <profile>
+        <id>evosuite</id>
+        <properties>
+            <pit.targetTests>.*ESTest</pit.targetTests>
+            <pit.reports.dir>pit-evosuite</pit.reports.dir>
+        </properties>
+    </profile>
+
+    <!-- =====================
+         Randoop only
+         ===================== -->
+    <profile>
+        <id>randoop</id>
+        <properties>
+            <pit.targetTests>com.mycompany.app.randoop.*</pit.targetTests>
+            <pit.reports.dir>pit-randoop</pit.reports.dir>
+        </properties>
+    </profile>
+
+    <!-- =====================
+         Human + LLM
+         ===================== -->
+    <profile>
+        <id>human_llm</id>
+        <properties>
+            <pit.targetTests>
+                com.mycompany.app.*HumanTest,com.mycompany.app.*LLMTest
+            </pit.targetTests>
+            <pit.reports.dir>pit-human-llm</pit.reports.dir>
+        </properties>
+    </profile>
+
+</profiles>
 
 </project>
