@@ -33,7 +33,7 @@ jobs:
       # PIT sẽ tự chạy test theo profile
 
       - name: Run PIT (${{ matrix.suite }})
-        run: mvn -B -P${{ matrix.suite }} pitest:mutationCoverage
+        run: mvn -B -P ${{ matrix.suite }} pitest:mutationCoverage
 
       - name: Upload PIT report (${{ matrix.suite }})
         uses: actions/upload-artifact@v4
