@@ -1,4 +1,4 @@
-name: CI - Unit Tests & PIT
+name: CI - PIT Mutation Testing (Matrix)
 
 on:
   push:
@@ -9,6 +9,11 @@ on:
 jobs:
   build-test-pit:
     runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        suite: [human, randoop, evosuite, llm, human_llm]
 
     steps:
       - name: Checkout repository
@@ -24,12 +29,12 @@ jobs:
       - name: Verify Java version
         run: java -version
 
-      - name: Run unit tests
-        run: mvn clean test -Dtest=RegressionTest*
-        
+      # KHÔNG chạy mvn test
+      # PIT sẽ tự chạy test theo profile
+
       - name: Run PIT (${{ matrix.suite }})
-        run: mvn -P${{ matrix.suite }} pitest:mutationCoverage
-      
+        run: mvn -B -P${{ matrix.suite }} pitest:mutationCoverage
+
       - name: Upload PIT report (${{ matrix.suite }})
         uses: actions/upload-artifact@v4
         with:
