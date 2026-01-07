@@ -26,18 +26,12 @@ jobs:
 
       - name: Run unit tests
         run: mvn clean test -Dtest=RegressionTest*
-
-      - name: Run PIT mutation testing
-        run: mvn pitest:mutationCoverage -Dpit.targetTests=com.mycompany.app.randoop.*
-
-      - name: Upload PIT HTML report
+        
+      - name: Run PIT (${{ matrix.suite }})
+        run: mvn -P${{ matrix.suite }} pitest:mutationCoverage
+      
+      - name: Upload PIT report (${{ matrix.suite }})
         uses: actions/upload-artifact@v4
         with:
-          name: pit-report-html
-          path: target/pit-reports
-
-      - name: Upload PIT CSV report
-        uses: actions/upload-artifact@v4
-        with:
-          name: pit-report-csv
-          path: target/pit-reports/**/mutations.csv
+          name: pit-${{ matrix.suite }}
+          path: pit-${{ matrix.suite }}/**
