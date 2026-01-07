@@ -98,6 +98,8 @@
                 <version>3.2.5</version>
                 <configuration>
                     <useModulePath>false</useModulePath>
+                    <!-- mặc định KHÔNG chạy test -->
+                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
 
@@ -147,59 +149,136 @@
     <!-- =====================
          HUMAN baseline
          ===================== -->
-    <profile>
-        <id>human</id>
-        <properties>
-            <pit.targetTests>com.mycompany.app.*HumanTest</pit.targetTests>
-            <pit.reports.dir>pit-human</pit.reports.dir>
-        </properties>
-    </profile>
+<profile>
+  <id>human</id>
+
+  <properties>
+    <pit.targetTests>com.mycompany.app.*HumanTest</pit.targetTests>
+    <pit.reports.dir>pit-human</pit.reports.dir>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skipTests>false</skipTests>
+          <includes>
+            <include>**/*HumanTest.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
+
 
     <!-- =====================
          LLM only
          ===================== -->
-    <profile>
-        <id>llm</id>
-        <properties>
-            <pit.targetTests>com.mycompany.app.*LLMTest</pit.targetTests>
-            <pit.reports.dir>pit-llm</pit.reports.dir>
-        </properties>
-    </profile>
+<profile>
+  <id>llm</id>
+
+  <properties>
+    <pit.targetTests>com.mycompany.app.*LLMTest</pit.targetTests>
+    <pit.reports.dir>pit-llm</pit.reports.dir>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skipTests>false</skipTests>
+          <includes>
+            <include>**/*LLMTest.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
 
     <!-- =====================
          EvoSuite only
          ===================== -->
-    <profile>
-        <id>evosuite</id>
-        <properties>
-            <pit.targetTests>.*ESTest</pit.targetTests>
-            <pit.reports.dir>pit-evosuite</pit.reports.dir>
-        </properties>
-    </profile>
+<profile>
+  <id>evosuite</id>
+
+  <properties>
+    <pit.targetTests>.*ESTest</pit.targetTests>
+    <pit.reports.dir>pit-evosuite</pit.reports.dir>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skipTests>false</skipTests>
+          <includes>
+            <include>**/*ESTest.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
 
     <!-- =====================
          Randoop only
          ===================== -->
-    <profile>
-        <id>randoop</id>
-        <properties>
-            <pit.targetTests>com.mycompany.app.randoop.*</pit.targetTests>
-            <pit.reports.dir>pit-randoop</pit.reports.dir>
-        </properties>
-    </profile>
+<profile>
+  <id>randoop</id>
+
+  <properties>
+    <pit.targetTests>com.mycompany.app.randoop.*</pit.targetTests>
+    <pit.reports.dir>pit-randoop</pit.reports.dir>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skipTests>false</skipTests>
+          <includes>
+            <include>**/RegressionTest*.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
 
     <!-- =====================
          Human + LLM
          ===================== -->
-    <profile>
-        <id>human_llm</id>
-        <properties>
-            <pit.targetTests>
-                com.mycompany.app.*HumanTest,com.mycompany.app.*LLMTest
-            </pit.targetTests>
-            <pit.reports.dir>pit-human-llm</pit.reports.dir>
-        </properties>
-    </profile>
+<profile>
+  <id>human_llm</id>
+
+  <properties>
+    <pit.targetTests>
+      com.mycompany.app.*HumanTest,com.mycompany.app.*LLMTest
+    </pit.targetTests>
+    <pit.reports.dir>pit-human-llm</pit.reports.dir>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skipTests>false</skipTests>
+          <includes>
+            <include>**/*HumanTest.java</include>
+            <include>**/*LLMTest.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
 
 </profiles>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.app.randoop.RegressionTest0" time="0.037" tests="500" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.app.randoop.RegressionTest0" time="0.28" tests="500" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -15,8 +15,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/surefire/surefirebooter-20260104033657956_3.jar /home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/surefire 2026-01-04T03-36-57_867-jvmRun1 surefire-20260104033657956_1tmp surefire_0-20260104033657956_2tmp"/>
-    <property name="test" value="RegressionTest*"/>
+    <property name="sun.java.command" value="/home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/surefire/surefirebooter-20260107003315368_3.jar /home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/surefire 2026-01-07T00-33-15_124-jvmRun1 surefire-20260107003315368_1tmp surefire_0-20260107003315368_2tmp"/>
     <property name="surefire.test.class.path" value="/home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/test-classes:/home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/classes:/home/ptthuong/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/ptthuong/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/ptthuong/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/ptthuong/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/ptthuong/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/ptthuong/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/ptthuong/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/ptthuong/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ptthuong/.m2/repository/org/evosuite/evosuite-runtime/1.0.6/evosuite-runtime-1.0.6.jar:/home/ptthuong/.m2/repository/org/mockito/mockito-core/2.16.0/mockito-core-2.16.0.jar:/home/ptthuong/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/ptthuong/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/ptthuong/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/ptthuong/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.2.Final/jboss-servlet-api_3.1_spec-1.0.2.Final.jar:/home/ptthuong/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/ptthuong/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/home/ptthuong/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/ptthuong/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/home/ptthuong/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/home/ptthuong/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/home/ptthuong/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/home/ptthuong/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/home/ptthuong/.m2/repository/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.jar:/home/ptthuong/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/ptthuong/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/ptthuong/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar:/home/ptthuong/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/ptthuong/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/ptthuong/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/ptthuong/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/ptthuong/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/ptthuong/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/ptthuong/.m2/repository/org/hsqldb/hsqldb/2.4.0/hsqldb-2.4.0.jar:/home/ptthuong/.m2/repository/org/springframework/spring-orm/4.3.14.RELEASE/spring-orm-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ptthuong/.m2/repository/org/springframework/spring-jdbc/4.3.14.RELEASE/spring-jdbc-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/springframework/spring-tx/4.3.14.RELEASE/spring-tx-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/springframework/spring-expression/4.3.14.RELEASE/spring-expression-4.3.14.RELEASE.jar:/home/ptthuong/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/ptthuong/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/home/ptthuong/.m2/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar:/home/ptthuong/.m2/repository/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar:/home/ptthuong/.m2/repository/org/ow2/asm/asm-analysis/6.0/asm-analysis-6.0.jar:/home/ptthuong/.m2/repository/org/ow2/asm/asm-util/6.0/asm-util-6.0.jar:/home/ptthuong/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/home/ptthuong/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/home/ptthuong/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ptthuong"/>
@@ -29,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/surefire/surefirebooter-20260104033657956_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/ptthuong/thuc_nghiem_nckh_2026/my-app/target/surefire/surefirebooter-20260107003315368_3.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_472-8u472-ga-1~24.04-b08"/>
@@ -58,17 +57,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test0001" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0001" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0001" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0002" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0002" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0003" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0003" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0004" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0004" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0004" classname="com.mycompany.app.randoop.RegressionTest0" time="0.004"/>
+  <testcase name="test0004" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0005" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0005" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0006" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0006" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0006" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0007" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0007" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -77,49 +76,49 @@
   <testcase name="test0009" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0009" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0010" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0010" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0010" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0011" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0011" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0011" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0012" classname="com.mycompany.app.randoop.RegressionTest0" time="0.002"/>
   <testcase name="test0012" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0012" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0013" classname="com.mycompany.app.randoop.RegressionTest0" time="0.005"/>
   <testcase name="test0013" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0013" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0014" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0014" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0014" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0015" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0015" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0016" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0016" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0017" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0017" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0017" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0018" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0018" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0019" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0019" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0020" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0020" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0020" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0021" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0021" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0022" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0022" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0022" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0023" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0023" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0024" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0024" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0025" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0024" classname="com.mycompany.app.randoop.RegressionTest0" time="0.003"/>
+  <testcase name="test0025" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0025" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0026" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0026" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0027" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0027" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0027" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0028" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0028" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0029" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0029" classname="com.mycompany.app.randoop.RegressionTest0" time="0.011"/>
   <testcase name="test0029" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0030" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0030" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0031" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0031" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0031" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0031" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0032" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0032" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0033" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -135,84 +134,84 @@
   <testcase name="test0038" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0038" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0039" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0039" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0040" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0039" classname="com.mycompany.app.randoop.RegressionTest0" time="0.007"/>
   <testcase name="test0040" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0040" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0041" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0041" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0042" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0042" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0042" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0043" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0043" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0044" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0044" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0044" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0045" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0045" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0046" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0046" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0046" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0047" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0047" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0048" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0048" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0048" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0049" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
-  <testcase name="test0049" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0049" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0050" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0050" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0051" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0051" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0052" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0052" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0052" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0053" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0053" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0054" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0054" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0055" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0055" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0055" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0056" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0056" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0057" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0057" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0058" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0057" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0058" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0058" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0059" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0059" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0060" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0060" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0060" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0061" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0061" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0062" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0062" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0063" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0063" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0063" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0064" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0064" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0065" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0065" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0066" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0066" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0066" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0067" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0067" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0067" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0068" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0068" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0068" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0069" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0069" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0070" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0070" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0070" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0071" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0071" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0071" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0072" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0072" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0073" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0073" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0074" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0074" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0075" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
-  <testcase name="test0075" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0075" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0075" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0076" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0076" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0076" classname="com.mycompany.app.randoop.RegressionTest0" time="0.006"/>
+  <testcase name="test0077" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0077" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0077" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0078" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0078" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0078" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0079" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0079" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -222,7 +221,7 @@
   <testcase name="test0081" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0082" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0082" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0083" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0083" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0083" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0084" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0084" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -236,42 +235,42 @@
   <testcase name="test0088" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0089" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0089" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0090" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0090" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0090" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0091" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0091" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0091" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0092" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0092" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0093" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0093" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0093" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0094" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0094" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0094" classname="com.mycompany.app.randoop.RegressionTest0" time="0.007"/>
   <testcase name="test0095" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0095" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0096" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0096" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0097" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0097" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0098" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0098" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0098" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0099" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0099" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0100" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0100" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0101" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0101" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0101" classname="com.mycompany.app.randoop.RegressionTest0" time="0.01"/>
   <testcase name="test0102" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0102" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0102" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0103" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0103" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0104" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0104" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0105" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0105" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0105" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0106" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0106" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0107" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0107" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0107" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0108" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0108" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0109" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -281,7 +280,7 @@
   <testcase name="test0111" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0111" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0112" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0112" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0112" classname="com.mycompany.app.randoop.RegressionTest0" time="0.008"/>
   <testcase name="test0113" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0113" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0114" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -290,18 +289,18 @@
   <testcase name="test0115" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0116" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0116" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0117" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0117" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0117" classname="com.mycompany.app.randoop.RegressionTest0" time="0.004"/>
   <testcase name="test0118" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0118" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0119" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0119" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0119" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0120" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0120" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0121" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0121" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0122" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0122" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0122" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0122" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0123" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0123" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0124" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -309,14 +308,14 @@
   <testcase name="test0125" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0125" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0126" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0126" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0126" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0127" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0127" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0128" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0128" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0128" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0129" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0129" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0130" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0130" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0130" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0131" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0131" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -334,14 +333,14 @@
   <testcase name="test0137" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0138" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0138" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0139" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0139" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0139" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0140" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0140" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0141" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0141" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0141" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0142" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0142" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0142" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0143" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0143" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0144" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -356,8 +355,8 @@
   <testcase name="test0148" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0149" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0149" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0150" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0150" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0150" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0151" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0151" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0152" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -365,7 +364,7 @@
   <testcase name="test0153" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0153" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0154" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0154" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0154" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0155" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0155" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0156" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -383,17 +382,17 @@
   <testcase name="test0162" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0162" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0163" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0163" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0163" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0164" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0164" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0165" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0165" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0166" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0166" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0166" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0167" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0167" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0168" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0168" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0168" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0169" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0169" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0170" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -407,7 +406,7 @@
   <testcase name="test0174" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0174" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0175" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0175" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0175" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0176" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0176" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0177" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -417,17 +416,17 @@
   <testcase name="test0179" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0179" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0180" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0180" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0180" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0181" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0181" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0182" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0182" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0182" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0183" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0183" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0184" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0184" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0184" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0185" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0185" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0185" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0186" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0186" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0187" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -436,7 +435,7 @@
   <testcase name="test0188" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0189" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0189" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0190" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0190" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0190" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0191" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0191" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -466,36 +465,36 @@
   <testcase name="test0203" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0204" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0204" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0205" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0205" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0205" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0206" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0206" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0207" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0207" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0207" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0208" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0208" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0209" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0209" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0209" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0210" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0210" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0210" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0211" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0211" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0212" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0212" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0213" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0213" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0213" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0213" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0214" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0214" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0215" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0215" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0216" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0216" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0216" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0217" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0217" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0218" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0218" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0218" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0219" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0219" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0219" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0220" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0220" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0221" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -504,7 +503,7 @@
   <testcase name="test0222" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0223" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0223" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0224" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0224" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0224" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0225" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0225" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -512,13 +511,13 @@
   <testcase name="test0226" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0227" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0227" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0228" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0228" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0229" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0228" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0229" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0229" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0230" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0230" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0231" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0231" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0231" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0232" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0232" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -526,19 +525,19 @@
   <testcase name="test0233" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0234" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0234" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0235" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0235" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0235" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0236" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0236" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0237" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0237" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0237" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0238" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0238" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0239" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0239" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0239" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0240" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0240" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0241" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0240" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0241" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0241" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0242" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0242" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -550,25 +549,25 @@
   <testcase name="test0245" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0246" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0246" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0247" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0247" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0247" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0248" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0248" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0249" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0249" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0250" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0250" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0250" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0251" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0251" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0252" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0252" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0252" classname="com.mycompany.app.randoop.RegressionTest0" time="0.002"/>
   <testcase name="test0253" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0253" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0254" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0254" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0255" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0255" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0256" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0256" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0256" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0257" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0257" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -588,13 +587,13 @@
   <testcase name="test0264" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0265" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0265" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0266" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0266" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0266" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0266" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0267" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0267" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0268" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0268" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0269" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0269" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0269" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0270" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0270" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -615,7 +614,7 @@
   <testcase name="test0278" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0278" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0279" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0279" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0279" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0280" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0280" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0281" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -637,20 +636,20 @@
   <testcase name="test0289" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0289" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0290" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0290" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0290" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0291" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0291" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0292" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0292" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0293" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0293" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0293" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0293" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0294" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0294" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0295" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0295" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0296" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0296" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0297" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0297" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0297" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0298" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0298" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -658,7 +657,7 @@
   <testcase name="test0299" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0300" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0300" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0301" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0301" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0301" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0302" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0302" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -667,27 +666,27 @@
   <testcase name="test0304" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0304" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0305" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0305" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0305" classname="com.mycompany.app.randoop.RegressionTest0" time="0.008"/>
   <testcase name="test0306" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0306" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0307" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0307" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0307" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0308" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0308" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0308" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0309" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0309" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0310" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0310" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0311" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0311" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0311" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0312" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0312" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0312" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0313" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0313" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0314" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0314" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0315" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0315" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0315" classname="com.mycompany.app.randoop.RegressionTest0" time="0.005"/>
   <testcase name="test0316" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0316" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0317" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -695,7 +694,7 @@
   <testcase name="test0318" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0318" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0319" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0319" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0319" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0320" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0320" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0321" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -707,11 +706,11 @@
   <testcase name="test0324" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0324" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0325" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0325" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0325" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0326" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0326" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0327" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
-  <testcase name="test0327" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0327" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0328" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0328" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0329" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -720,7 +719,7 @@
   <testcase name="test0330" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0331" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0331" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0332" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0332" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0332" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0333" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0333" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -728,8 +727,8 @@
   <testcase name="test0334" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0335" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0335" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0336" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0336" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0336" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0337" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0337" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0338" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -739,7 +738,7 @@
   <testcase name="test0340" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0340" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0341" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0341" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0341" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0342" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0342" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0343" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -761,13 +760,13 @@
   <testcase name="test0351" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0351" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0352" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0352" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0352" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0353" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0353" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0353" classname="com.mycompany.app.randoop.RegressionTest0" time="0.007"/>
   <testcase name="test0354" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0354" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0355" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0355" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0355" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0356" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0356" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0357" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -784,8 +783,8 @@
   <testcase name="test0362" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0363" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0363" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0364" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0364" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0364" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0364" classname="com.mycompany.app.randoop.RegressionTest0" time="0.003"/>
   <testcase name="test0365" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0365" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0366" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -793,7 +792,7 @@
   <testcase name="test0367" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0367" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0368" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0368" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0368" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0369" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0369" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0370" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -811,7 +810,7 @@
   <testcase name="test0376" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0376" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0377" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0377" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0377" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0378" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0378" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0379" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -827,7 +826,7 @@
   <testcase name="test0384" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0384" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0385" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0385" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0385" classname="com.mycompany.app.randoop.RegressionTest0" time="0.003"/>
   <testcase name="test0386" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0386" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0387" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -840,12 +839,12 @@
   <testcase name="test0390" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0391" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0391" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
-  <testcase name="test0392" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0392" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0392" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0393" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0393" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0394" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0394" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0394" classname="com.mycompany.app.randoop.RegressionTest0" time="0.004"/>
   <testcase name="test0395" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0395" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0396" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -853,7 +852,7 @@
   <testcase name="test0397" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0397" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0398" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0398" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0398" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0399" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0399" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0400" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -873,7 +872,7 @@
   <testcase name="test0407" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0407" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0408" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0408" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0408" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0409" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0409" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0410" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -881,17 +880,17 @@
   <testcase name="test0411" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0411" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0412" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0412" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0412" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0413" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0413" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0414" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0414" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0414" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0415" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0415" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0416" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0416" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0417" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0417" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0417" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0418" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0418" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0419" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -906,23 +905,23 @@
   <testcase name="test0423" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0424" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0424" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0425" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0425" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0425" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0425" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0426" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0426" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0427" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0427" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0427" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0428" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0428" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0429" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0429" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0429" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0430" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0430" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0430" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0431" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0431" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0432" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0432" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0433" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0433" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0433" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0434" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0434" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -941,9 +940,9 @@
   <testcase name="test0441" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0441" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0442" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0442" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0442" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0443" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0443" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0443" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0444" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0444" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0445" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -955,8 +954,8 @@
   <testcase name="test0448" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0448" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0449" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0449" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
-  <testcase name="test0450" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0449" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0450" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0450" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0451" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0451" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -971,7 +970,7 @@
   <testcase name="test0456" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0456" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0457" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0457" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0457" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0458" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0458" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0459" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -982,9 +981,9 @@
   <testcase name="test0461" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0462" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0462" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0463" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0463" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0464" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0463" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0464" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0464" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0465" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0465" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -993,11 +992,11 @@
   <testcase name="test0467" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0467" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0468" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0468" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0468" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0469" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0469" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0470" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0470" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0470" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0471" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0471" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0472" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -1015,8 +1014,8 @@
   <testcase name="test0478" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0478" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0479" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0479" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
-  <testcase name="test0480" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0479" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0480" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0480" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0481" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0481" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -1031,7 +1030,7 @@
   <testcase name="test0486" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0486" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0487" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0487" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0487" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0488" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0488" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0489" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -1040,8 +1039,8 @@
   <testcase name="test0490" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0491" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0491" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0492" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0492" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0492" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0492" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0493" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0493" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0494" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
@@ -1052,10 +1051,10 @@
   <testcase name="test0496" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0497" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0497" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0498" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
+  <testcase name="test0498" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
   <testcase name="test0498" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0499" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
-  <testcase name="test0499" classname="com.mycompany.app.randoop.RegressionTest0" time="0.001"/>
+  <testcase name="test0499" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0500" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
   <testcase name="test0500" classname="com.mycompany.app.randoop.RegressionTest0" time="0.0"/>
 </testsuite>
